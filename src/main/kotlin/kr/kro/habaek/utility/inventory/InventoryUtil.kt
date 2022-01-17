@@ -4,6 +4,7 @@ import kr.kro.habaek.utility.item.isSameItem
 import org.bukkit.inventory.Inventory
 import org.bukkit.inventory.ItemStack
 import org.bukkit.inventory.PlayerInventory
+import org.bukkit.inventory.Inventory
 
 fun Inventory.getEmptySlot() : Int{
     val size = if (this is PlayerInventory) 9 * 4

@@ -3,6 +3,7 @@ package kr.kro.habaek.utility.sound
 import org.bukkit.Location
 import org.bukkit.Sound
 import org.bukkit.SoundCategory
+import org.bukkit.inventory.Inventory
 import org.bukkit.entity.Player
 
 class PlaySound {

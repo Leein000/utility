@@ -1,4 +1,5 @@
 package kr.kro.habaek.utility.sound
+import org.bukkit.inventory.Inventory
 
 enum class Scale(val float: Float) {
     L_FA_SHARP(0.5F),

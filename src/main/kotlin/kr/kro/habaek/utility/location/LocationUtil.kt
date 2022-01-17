@@ -1,6 +1,7 @@
 package kr.kro.habaek.utility.location
 
 import org.bukkit.Location
+import org.bukkit.inventory.Inventory
 
 enum class Axis {
     X,

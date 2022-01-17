@@ -5,6 +5,7 @@ import org.bukkit.Bukkit
 import org.bukkit.entity.Player
 import org.bukkit.plugin.java.JavaPlugin
 import org.bukkit.scheduler.BukkitTask
+import org.bukkit.inventory.Inventory
 
 class RunTitle(players: Collection<Player>, val title: String, val subtitle: String, val fadeIn: Int, val stay: Int, val fadeOut: Int, val wait: Int):
     RunTask {

@@ -4,6 +4,7 @@ import kr.kro.habaek.utility.string.remove
 import org.bukkit.Bukkit
 import org.bukkit.plugin.java.JavaPlugin
 import org.bukkit.scheduler.BukkitTask
+import org.bukkit.inventory.Inventory
 
 class Time(val pl: JavaPlugin) {
     var day = 0

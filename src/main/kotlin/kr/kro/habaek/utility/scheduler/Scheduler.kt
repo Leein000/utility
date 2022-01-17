@@ -3,6 +3,7 @@ package kr.kro.habaek.utility.scheduler
 import kr.kro.habaek.utility.scheduler.objectes.interfaces.RunRepeat
 import kr.kro.habaek.utility.scheduler.objectes.interfaces.RunTask
 import org.bukkit.plugin.java.JavaPlugin
+import org.bukkit.inventory.Inventory
 import org.bukkit.scheduler.BukkitTask
 
 class Scheduler(val pl: JavaPlugin) {

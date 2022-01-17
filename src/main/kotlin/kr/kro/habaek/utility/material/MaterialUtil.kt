@@ -2,6 +2,7 @@ package kr.kro.habaek.utility.material
 
 import org.bukkit.Material
 import org.bukkit.inventory.ItemStack
+import org.bukkit.inventory.Inventory
 
 fun Material.item(): ItemStack {
     return ItemStack(this)
