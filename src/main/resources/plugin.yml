@@ -1,0 +1,4 @@
+name: Utility.item
+version: '${project.version}'
+main: kr.kro.habaek.utility.item.item.Utility.item
+api-version: 1.17
