@@ -2,7 +2,6 @@ package kr.kro.habaek.utility.item
 
 import org.bukkit.inventory.ItemStack
 import kr.kro.habaek.utility.material.item
-import org.bukkit.inventory.Inventory
 import org.bukkit.inventory.ItemFlag
 
 fun ItemStack.disPlay(): String {

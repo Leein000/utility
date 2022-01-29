@@ -4,7 +4,6 @@ import kr.kro.habaek.utility.string.remove
 import org.bukkit.Bukkit
 import org.bukkit.plugin.java.JavaPlugin
 import org.bukkit.scheduler.BukkitTask
-import org.bukkit.inventory.Inventory
 
 class Time(val pl: JavaPlugin) {
     var day = 0
@@ -14,7 +13,6 @@ class Time(val pl: JavaPlugin) {
     var tick = 0
 
     var task: BukkitTask? = null
-
     init {
         overflowCheck()
     }
@@ -108,7 +106,8 @@ class Time(val pl: JavaPlugin) {
         return (day * 24) + hour + (min / 60) + (sec / (60.0 * 60)) + (tick / (60.0 * 60 * 20))
     }
     fun toMin(): Double {
-        return (day * 24 * 60) + (hour * 60) + min + (sec /60.0) + (tick / (60.0 * 60 * 20))
+        return (day * 24 * 60) + (hour * 60) + min + (sec / 60.0) + (tick / (60.0 * 60 * 20))
+    }
     fun toSec(): Double {
         return (day * 24 * 60 * 60) + (hour * 60 * 60) + (min * 60) + sec + (tick / 20.0)
     }

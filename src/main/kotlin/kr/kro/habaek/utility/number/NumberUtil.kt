@@ -3,7 +3,6 @@ package kr.kro.habaek.utility.number
 import java.text.DecimalFormat
 import kotlin.math.pow
 import kotlin.random.Random
-import org.bukkit.inventory.Inventory
 
 fun Long.addComma(): String {
     return DecimalFormat("###,###").format(this)

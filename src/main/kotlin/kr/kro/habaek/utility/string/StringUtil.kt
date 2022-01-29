@@ -4,7 +4,6 @@ import net.kyori.adventure.text.Component
 import org.bukkit.Bukkit
 import org.bukkit.ChatColor
 import org.bukkit.entity.Player
-import org.bukkit.inventory.Inventory
 
 fun String.toConsole() {
     if (this != "") println(this)
@@ -32,6 +31,10 @@ fun String.setUnderBar(): String {
 }
 fun  String.removeUnderBar(): String {
     return this.replace('_',' ')
+}
+
+fun String.remove(char: Char): String {
+    return this.replace(char.toString(), "")
 }
 fun String.remove(string: String): String {
     return this.replace(string, "")
